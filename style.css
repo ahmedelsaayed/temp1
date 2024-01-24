@@ -1,0 +1,470 @@
+/* global ----------------------*/
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'popines', sans-serif;
+}html{
+    scroll-behavior: smooth;
+}
+/* ------------------------------------------------------nav bar--------------------------------------------- */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 100%;
+    margin: 0px auto;
+    height:10vh;
+    position: relative;
+    z-index: 3;
+    background-color: #ffffff;
+}nav img{
+    width:80px;
+    object-fit:cover;
+    margin-left: 20px;
+}nav summary{
+    list-style: none;
+    margin-right: 20px;
+}summary i{
+    font-size:60px;
+
+}
+ul li {
+    list-style:none;
+    padding: 10px 40px 10px 10px;
+    text-align: left;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size:18px;
+    font-weight: normal;
+}ul{
+    position: absolute;
+    right:46px;
+    top:65px;
+    display: flex;
+    flex-direction: column;
+    gap:2px;
+    background-color:#eae9e9;
+    height: max-content;
+    border-radius:8px 0px 8px 8px ;
+    padding:4px;
+    width:120px;
+}ul li:hover{
+transition: 0.8s;
+padding-left: 25px;
+
+}hr {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    border:solid 1px white;
+
+}
+/* --------------------------------------Header------------------------------------------------------ */
+header{
+    background-image: url(./img/header-back.webp);
+    background-size: cover;
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}.text-header{
+    display: flex;
+    flex-direction: column;
+    gap:0px;
+    text-align: center;
+}.text-header h1{
+    color:rgb(16, 202, 183);
+    font-size:80px;
+    margin-bottom:5px;
+}.text-header h3{
+    font-size: 23px;
+    color: #ffffff;
+}.text-header p{
+    font-size: 23px;
+    margin-top: 10px;
+    color: aliceblue;
+    /* ---------------------------------properties----------------------------------------------------- */
+}.properites{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    height:60vh;
+    background-color:rgb(246, 246, 246);
+}.pro{
+    width: 30%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+}.pro i{
+    font-size: 70px;
+    color:rgb(16, 202, 183);
+}.pro p{
+    line-height: 1.5;
+    color:grey;
+}header a{
+    position: absolute;
+    bottom:65px;
+    right: 55px;
+}header i{
+    color: #fcfcfc;
+    font-size: 40px;
+    position: fixed;
+    background-color: #000000;
+    border-radius: 50%;
+}
+/* ---------------------------------services----------------------------------------------------- */
+.services{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    height: 100vh;
+    margin-bottom: 50px;
+}.servs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}.ser1{
+    display: flex;
+    justify-content: space-around;
+    align-items: self-start;
+    text-align: start;
+    flex-direction: column;
+    gap: 30px;
+}.ser2{
+    display: flex;
+    justify-content: space-around;
+    align-items: self-start;
+    text-align: start;
+    flex-direction: column;
+    gap: 30px;
+}.servs i{
+    font-size:60px;
+    color:rgb(16, 202, 183);
+} .add{
+    font-size:70px;
+    color: #cbc1c1;
+}.services p{
+    font-size: 17px;
+    line-height: 1.5;
+}
+/* ---------------------------------------Portofolio------------------------------- */
+.Portofolio{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: space-between;
+ height: max-content;
+ gap: 30px;
+ background-color:rgb(246, 246, 246);
+ padding-bottom: 30px;
+}.por1{
+    width:48%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:start;
+    background-color:rgb(255, 255, 255);
+    align-items: self-start;
+    gap: 20px;
+    padding-bottom: 20px;
+}.por1 img{
+    width: 100%;
+}.por{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    width:90%;
+    margin: auto;
+}.por1 h3{
+    font-size: 20px;
+    margin-left: 20px;
+}.por1 p{
+    font-size: 17px;
+    margin-left: 20px;
+    color: gray;
+
+} .add{
+    margin:40px 0px;
+}
+/* -----------------------------------------------about--------------------------------------- */
+.about{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 95%;
+    margin: auto;
+}.abt{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+
+ 
+}.abt img{
+    width:240px;
+    border-right:#10CAB7 40px solid;
+    border-left:#10CAB7 40px solid;
+    border-top:rgb(200, 190, 188) 40px solid;
+    border-bottom:rgb(200, 190, 188) 40px solid;
+}.tx{
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    position: relative;
+}.line{
+    color:#10CAB7;
+    background-color: #10CAB7;
+    width: 60%;
+    height: 0.5vh;
+    position:absolute;
+    left: 0%;
+    top:44%;
+}.tx h2{
+    font-size: 18px;
+    line-height: 1.9;
+}.tx p{
+    font-size: 20px;
+    line-height: 1.9;
+    color: #736b6b;
+}
+/* -----------------------------------------contact-------------------------------- */
+.Contact{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color:rgb(246, 246, 246);
+    gap:10px;
+    padding-bottom:20px;
+}.Contact h2{
+    font-size: 35px;
+    color:#2C4755;
+}.Contact div{
+    display: flex;
+    gap:10px;
+}.Contact a{
+    text-decoration: none;
+    font-size:20px;
+    color: rgb(16, 202, 183);
+    margin-top:10px;
+    margin-bottom: 10px;
+}.Contact i{
+    font-size: 20px;
+}.Contact p{
+    font-size: 20px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+/* ------------------------------responsive-------------------------------------------------------- */
+@media screen and (max-width:480px) {
+    .pro{
+   width: 70%;
+   margin: auto;
+   flex-direction: column;
+    }
+
+
+.properites{
+    flex-wrap: wrap;
+    height: max-content;
+    padding:20px 0px;
+    margin-bottom: 20px;
+}.servs{
+  flex-direction: column;
+  height: max-content;
+  gap: 55px;
+}.ser1 ,.ser2{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}.services{
+    height: max-content;
+    flex-wrap: wrap;
+    height: max-content;
+    padding:20px 0px;
+    margin-bottom: 20px;
+}.services h1{
+    font-size:50px;
+}.Portofolio{
+    flex-wrap: wrap;
+    height: max-content;
+    padding:20px 0px;
+    margin-bottom: 20px;
+}.Portofolio h1{
+    font-size:50px;
+}.por{
+    flex-direction: column;
+}.por1{
+    width: 80%;
+    margin: auto;
+}.about{
+    flex-direction: column;
+}.abt{
+    flex-direction: column;
+}.tx{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+}.line{
+    position: static;
+}.about h1{
+    font-size:50px;
+}.Contact h1{
+    font-size:50px;
+
+}header h1{
+    font-size: 70px;
+}.Contact h2{
+    font-size: 25px;
+}
+}@media screen and (min-width:481px) and (max-width:769px){
+    .pro{
+        width:40%;
+        margin: auto;
+        flex-direction: column;
+         }
+     
+     
+     .properites{
+         flex-wrap: wrap;
+         height: max-content;
+         padding:40px 0px;
+         margin-bottom: 20px;
+         gap: 50px;
+         flex-direction: row;
+         width: 100%;
+         padding-top: 50px;
+
+     }.servs{
+       flex-direction: column;
+       height: max-content;
+       gap: 55px;
+     }.ser1 ,.ser2{
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+     }.services{
+         height: max-content;
+         flex-wrap: wrap;
+         height: max-content;
+         padding:20px 0px;
+         margin-bottom: 20px;
+     }.services h1{
+         font-size:50px;
+     }.Portofolio{
+         flex-wrap: wrap;
+         height: max-content;
+         padding:20px 0px;
+         margin-bottom: 20px;
+     }.Portofolio h1{
+         font-size:50px;
+     }.por{
+         flex-direction: column;
+     }.por1{
+         width: 80%;
+         margin: auto;
+     }.about{
+         flex-direction: column;
+     }.abt{
+         flex-direction: column;
+     }.tx{
+         width: 90%;
+         margin: auto;
+         margin-top: 30px;
+         text-align: center;
+     }.line{
+         position: static;
+     }.about h1{
+         font-size:50px;
+     }.Contact h1{
+         font-size:50px;
+     
+     }
+}
+@media screen and (min-width:770px) and (max-width:1010px){
+    .pro{
+        width:40%;
+        margin: auto;
+        flex-direction: column;
+         }
+     
+     
+     .properites{
+         flex-wrap: wrap;
+         height: max-content;
+         padding:40px 0px;
+         margin-bottom: 20px;
+         gap: 50px;
+         flex-direction: row;
+         width: 100%;
+         padding-top: 50px;
+
+     }.servs{
+       flex-direction: column;
+       height: max-content;
+       gap: 55px;
+     }.ser1 ,.ser2{
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+     }.services{
+         height: max-content;
+         flex-wrap: wrap;
+         height: max-content;
+         padding:20px 0px;
+         margin-bottom: 20px;
+     }.services h1{
+         font-size:50px;
+     }.Portofolio{
+         flex-wrap: wrap;
+         height: max-content;
+         padding:20px 0px;
+         margin-bottom: 20px;
+     }.Portofolio h1{
+         font-size:50px;
+     }.por{
+         flex-direction: column;
+     }.por1{
+         width: 80%;
+         margin: auto;
+     }.about{
+         flex-direction: column;
+     }.abt{
+         flex-direction: column;
+     }.tx{
+         width: 90%;
+         margin: auto;
+         margin-top: 30px;
+         text-align: center;
+     }.line{
+         position: static;
+     }.about h1{
+         font-size:50px;
+     }.Contact h1{
+         font-size:50px;
+     
+     }
+}
